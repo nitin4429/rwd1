@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+h1{
+    text-align: center;
+    font-size:35px;
+    
+}
+.sub-sec{
+display:flex;
+width:100%;
+flex-wrap: wrap;
+gap:30px;
+margin-left:100px;
+margin-top: 30px;
+
+}
+.image{
+    width:400px;
+    height:300px;
+    border:3px solid #000000;
+    border-radius:15px;
+}
+.image img{
+    width:100%;
+    height:100%;
+    border-radius:12px;
+}
+@media screen and (max-width:900px) {
+    .sub-sec{
+        display:flex;
+        flex-direction: column;
+    }
+}

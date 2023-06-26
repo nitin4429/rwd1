@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* border:2px solid red; */
+}
+
+.sub-sec-1 {
+    /* border:2px solid red; */
+    padding: 5px;
+}
+
+.sub-sec-1 h1 {
+    color: gray;
+}
+
+.sub-sec-2 {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction:column;
+    margin: 30px;
+    gap:15px;
+}
+
+.sec-1 {
+   display:flex;
+   flex-direction: row;
+   border-bottom:1px solid grey;
+   padding:15px;
+}
+.sec-1 p{
+    font-weight: bold;
+}
+.p-1{
+    width:30%;
+    /* border:2px solid red; */
+    margin-left:5px;
+    color:white;
+}
+.p-2{
+    width:50%;
+    margin-left:5px;
+    /* border:2px solid red; */
+    color:white
+}
+.p-3{
+    width:20%;
+    margin-left:5px;
+    color:white;
+    /* border:2px solid red; */
+}
+
+/* .sec-1 p {
+    border-bottom: 2px solid grey;
+} */
+
+.sec-2 {
+    display:flex;
+    flex-direction: row;
+    border-bottom:1px solid grey;
+    /* border:2px solid red; */
+    padding:10px;
+}
+
+/* .sec-2 p {
+    border-bottom: 2px solid grey;
+} */
+
+.sec-3 {
+    display:flex;
+    border-bottom:1px solid grey;
+    flex-direction: row;
+    /* border:2px solid red; */
+    padding:10px;
+}
+.sec-4 {
+    display:flex;
+   flex-direction: row;
+   border-bottom:1px solid grey;
+   /* border:2px solid red; */
+   padding:10px;
+}
+.sec-5 {
+    display:flex;
+   flex-direction: row;
+   border-bottom:1px solid grey;
+   /* border:2px solid red; */
+   padding:10px;
+}
+.sec-6 {
+    display:flex;
+   flex-direction: row;
+   border-bottom:1px solid grey;
+   /* border:2px solid red; */
+   padding:10px;
+}
+
+.sec-7 {
+    display:flex;
+    flex-direction: row;
+    border-bottom:1px solid grey;
+    /* border:2px solid red; */
+    padding:10px;
+}
+.sec-8 {
+    display:flex;
+   flex-direction: row;
+   border-bottom:1px solid grey;
+   /* border:2px solid red; */
+   padding:10px;
+}
+.sec-9 {
+    display:flex;
+   flex-direction: row;
+   border-bottom:1px solid grey;
+   /* border:2px solid red; */
+   padding:10px;
+}
+.sec-10 {
+    display:flex;
+    flex-direction: row;
+    border-bottom:1px solid grey;
+    /* border:2px solid red; */
+    padding:10px;
+}
+.sec-11 {
+    display:flex;
+   flex-direction: row;
+   border-bottom:1px solid grey;
+   /* border:2px solid red; */
+   padding:10px;
+}
+
+/* .sec-3 p {
+    border-bottom: 2px solid grey;
+} */
+
+@media screen and (max-width:500px) {
+   .p-3{
+    display:none;
+   }
+   .sub-sec-2{
+    width:400px;
+   }
+}
